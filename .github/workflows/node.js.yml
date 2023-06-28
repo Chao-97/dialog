@@ -17,9 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Stop server
-        run: pm2 stop dialog_server
-
       - name: Check version
         run: |
           node -v
