@@ -25,8 +25,8 @@ jobs:
       - name: Install dependency
         run: npm i
 
-      - name: Start server
-        run: pm2 start dialog_server
+#       - name: Start server
+#         run: pm2 start dialog_server
 
-      - name: Check status
-        run: pm2 status
+#       - name: Check status
+#         run: pm2 status
